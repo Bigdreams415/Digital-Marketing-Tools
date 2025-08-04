@@ -1,0 +1,22 @@
+# Ignore all system and environment-specific folders
+**/.venv/
+**/.vscode/
+**/.next/
+**/node_modules/
+**/dist/
+**/.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Python cache and compiled files globally
+**/__pycache__/
+**/*.pyc
+
+
+# Ignore all environment and secret config files everywhere
+**/.env
+**/.env.*
+**/.env.*.local
+
